@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 52" role="img" aria-label="NOVARIS">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#c49a45"/><stop offset="1" stop-color="#9d7223"/></linearGradient></defs>
+  <g fill="none" stroke="url(#g)" stroke-width="6" stroke-linecap="square">
+    <path d="M7 42V10l29 31V9"/>
+    <path d="M7 10h12M24 9h12" opacity=".55"/>
+  </g>
+  <text x="54" y="29" font-family="Arial,Helvetica,sans-serif" font-size="25" letter-spacing="7" fill="#1e1e1e">NOVARIS</text>
+  <text x="55" y="44" font-family="Arial,Helvetica,sans-serif" font-size="7.2" letter-spacing="1.2" fill="#777">Massage &amp; Recovery Solutions</text>
+</svg>
