@@ -5,7 +5,7 @@ const form=document.querySelector('#rfqForm');
 form?.addEventListener('submit',e=>{
   e.preventDefault();
   const data=new FormData(form); const obj=Object.fromEntries(data.entries());
-  const subject=encodeURIComponent(`NOVARIS RFQ - ${obj.product||'General Inquiry'} - ${obj.company||obj.name}`);
+  const subject=encodeURIComponent(`LEMESY RFQ - ${obj.product||'General Inquiry'} - ${obj.company||obj.name}`);
   const body=encodeURIComponent(`Name: ${obj.name}\nBusiness Email: ${obj.email}\nCompany: ${obj.company}\nCountry/Region: ${obj.country}\nBusiness Type: ${obj.businessType}\nProduct Interested In: ${obj.product}\nEstimated Quantity: ${obj.quantity}\nCustomization Needed: ${obj.customization}\n\nMessage:\n${obj.message}`);
   window.location.href=`mailto:cynthiasu@lemesy.com?subject=${subject}&body=${body}`;
 });
